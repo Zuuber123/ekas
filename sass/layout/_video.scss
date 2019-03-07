@@ -1,0 +1,41 @@
+.section__video {
+    background: gray;
+
+
+    &__left {
+        
+    }
+    
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        grid-column-gap: 2rem;
+        justify-items: center;
+        padding: 2rem 30rem;
+        margin: auto 0;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        
+    }
+
+    h2 {
+        letter-spacing: .2rem;
+    }
+
+    
+
+    p:not(:last-child) {
+        margin-bottom: 5rem
+    }
+
+    
+
+    
+
+}

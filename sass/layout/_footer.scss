@@ -1,0 +1,56 @@
+.footer {
+    background-color: black;
+    
+
+
+    &__left {
+        justify-self: flex-end;
+    }
+
+    &__right {
+        justify-self: flex-start;
+       
+    }
+
+    &__middel {
+        
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        justify-items: center;
+        align-items: center;
+        
+    
+        padding: 1rem;
+        margin: auto 0;
+    }
+
+    h1 {
+        color: yellow;
+        
+    }
+   
+    ul {
+        display: inline-grid;
+        grid-template-rows: repeat(6, 1fr);
+        
+    }
+    
+
+
+    li {
+        
+        margin: 0 auto;
+    }
+
+
+
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+}
+

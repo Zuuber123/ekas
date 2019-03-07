@@ -1,0 +1,94 @@
+.header {
+    width: 100%;
+    
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    
+
+    &__img {
+        
+        overflow: hidden;
+        object-fit: cover;
+
+        img {
+            width: 100%;
+            
+        }
+        
+       
+        
+
+    }
+  
+                        
+    &__top {
+       background: rgb(0, 0, 0);
+       padding: .5rem;
+       
+      
+        &--text {
+            
+
+            img {
+                width: 12%;
+                
+            }
+            
+            text-align: center;
+            margin: 2 auto;
+           
+            
+            
+        }
+    }
+    
+
+    &__box {
+        
+        width: 100%;
+        padding: 1.5rem;
+        display: inline-grid;
+        
+        background: rgb(209, 212, 20);
+        
+        
+    }
+    &__nav {
+        
+        display: flex;
+        
+
+        ul {
+            margin: auto auto;
+            display: flex;
+            align-content: center;
+            text-transform: uppercase;
+            
+            
+            
+                list-style: none;
+
+
+
+                li {
+                    list-style: none;
+                    
+                }
+
+                a {
+                    
+                    text-decoration: none;
+                    
+                    padding: 0 1rem;
+                    margin: 2rem 3rem;
+                    letter-spacing: .5rem;
+                    position: relative;
+                    
+                    
+                }
+        }
+    }
+
+}
+
